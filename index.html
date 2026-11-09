@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+        <div class="p-l">
+            <div class="bg-sb ta-c p-4 f-l">
+                <h1 class="fz-11 p-1">Memahami Internet of Things</h1>
+                <h1 class="fz-3 p-1 mb-2">Dari Penjelasan Dasar hingga Proyek yang dapat dihasilkan</h1>
+                <a href="#">
+                    <div class="bord-rad6 fz-2 d-ib p-1 bg-yellow t-c">Kursus Pemrograman Terbaik</div>
+                </a>
+            </div>
+        </div>
+
+        <div class="c-w p-2 bord-rad6 p-l">
+            <div class="bg-blue p-3">
+                <h1 class="fz-7 mb-4 bg-navy">Apa Itu IoT?</h1>
+                <p class="fz-3 mb-5">IoT (Internet of Things) secara sederhana adalah kumpulan perangkat fisik (benda)
+                    yang terhubung ke internet dan bisa saling berkomunikasi atau dikendalikan dari jarak jauh.</p>
+                <p class="fz-3 mb-5"><span class="c-teal fz-3">Analoginya</span>: bayangkan benda-benda sehari-hari
+                    seperti lampu, kulkas, jam tangan, atau kamera CCTV "diberi otak" berupa sensor dan koneksi
+                    internet, sehingga mereka bisa mengirim data dan menerima perintah.</p>
+            </div>
+        </div>
+
+        <div class="c-w p-2 p-l">
+            <div class="bg-navy p-3">
+                <h1 class="fz-7 mb-4 d-g">Alat (Perangkat Keras) IoT
+                </h1>
+                <div class="d-g">
+                    <div class="bg-white p-1 mb-4">
+                        <h1 class="fz-3 mb-5">Sensor (Indra)</h1>
+                        <p class="fz-2 mb-4">Sensor bertugas mendeteksi dan mengukur kondisi fisik di lingkungan,
+                            seperti suhu, cahaya, gerakan, atau gas, lalu mengubahnya menjadi data digital.</p>
+                        <div class="bg-blue p-0">
+                            <p class="fz-2">- Sensor Suhu & Kelembapan</p>
+                            <p class="fz-2">- Sensor Gas</p>
+                            <p class="fz-2">- Sensor Gerak</p>
+                        </div>
+                    </div>
+                    <div class="bg-white p-1 mb-4">
+                        <h1 class="fz-3 mb-4">Aktuator (Otot)</h1>
+                        <p class="fz-2 mb-4">Aktuator adalah kebalikan dari sensor. Ia mengubah perintah elektronik
+                            menjadi aksi fisik, seperti menyalakan lampu, memutar motor, atau membuka katup.</p>
+                        <div class="bg-blue p-0">
+                            <p class="fz-2">- Relay</p>
+                            <p class="fz-2">- Motor Servo</p>
+                        </div>
+                    </div>
+                    <div class="bg-white p-1 mb-4">
+                        <h1 class="fz-3 mb-5">Mikrokontroler (Otak)</h1>
+                        <p class="fz-2 mb-4">Ini adalah komputer kecil di atas satu chip yang memproses data dari
+                            sensor, menjalankan logika program, dan mengendalikan aktuator.</p>
+                        <div class="bg-blue p-0">
+                            <p class="fz-2">- Arduino Uno</p>
+                            <p class="fz-2">- ESP32 / ESP8266</p>
+                            <p class="fz-2">- STM32</p>
+                        </div>
+                    </div>
+                    <div class="bg-white p-1 mb-4">
+                        <h1 class="fz-3 mb-5">Perangkat Komunikasi (Saraf)</h1>
+                        <p class="fz-2 mb-4">Ini menghubungkan perangkat fisik ke jaringan atau internet. Pilihannya
+                            bergantung pada kebutuhan jangkauan dan daya.</p>
+                        <div class="bg-blue p-0">
+                            <p class="fz-2">- WiFi</p>
+                            <p class="fz-2">- Bluetooth Low Energy</p>
+                            <p class="fz-2">- LoRaWAN / NB-IoT</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="c-w p-2 p-l">
+            <div class="bg-navy p-3">
+                <h1 class="fz-7 mb-4">Proyek-proyek yang Dapat Dihasilkan</h1>
+                <div class="d-g">
+                    <div class="bg-white p-1 mb-4">
+                        <h1 class="fz-3 mb-5">Sistem Keamanan Rumah Sederhana</h1>
+                        <p class="fz-2 mb-4 bg-blue p-0">Anda bisa membuat sistem yang mendeteksi gerakan dan
+                            mengirimkan
+                            notifikasi ke ponsel. Proyek ini menggunakan ESP32 dan sensor PIR. Saat sensor mendeteksi
+                            gerakan, ESP32 akan mengirim pesan peringatan ke akun Telegram Anda melalui koneksi Wi-Fi.
+                            Sebagai indikator fisik, sebuah motor servo bisa diaktifkan untuk menutup atau membuka
+                            sesuatu
+                        </p>
+                    </div>
+                    <div class="bg-white p-1 mb-4">
+                        <h1 class="fz-3 mb-5">Monitor Kualitas Udara Real-time</h1>
+                        <p class="fz-2 mb-4 bg-blue p-0">Proyek ini sangat berguna untuk memantau polusi di dalam atau
+                            di
+                            luar
+                            ruangan. Dengan menggunakan ESP32 yang dihubungkan dengan sensor MQ-135 (untuk CO2) dan MQ-2
+                            (untuk asap/gas), data yang terbaca akan dikirim ke platform cloud seperti ThingSpeak. Anda
+                            kemudian bisa melihat grafik kualitas udara secara langsung melalui browser.</p>
+                    </div>
+                    <div class="bg-white p-1 mb-4">
+                        <h1 class="fz-3 mb-3">Penyiram Tanaman Otomatis (Smart Plant Monitor)</h1>
+                        <p class="fz-2 mb-4 bg-blue p-0">Cocok untuk Anda yang sering lupa menyiram tanaman. Sistem ini
+                            menggunakan ESP32 yang terhubung dengan sensor kelembapan tanah dan sensor DHT11
+                            (suhu/kelembapan udara). Jika tanah terdeteksi kering, sistem bisa mengaktifkan pompa air
+                            kecil
+                            melalui relay secara otomatis. Data kelembapan juga bisa ditampilkan pada layar OLED kecil.
+                        </p>
+                    </div>
+                    <div class="bg-white p-1 mb-4">
+                        <h1 class="fz-3 mb-5">Smart Home dengan Kontrol Suara</h1>
+                        <p class="fz-2 mb-4 bg-blue p-0">Untuk proyek yang lebih ambisius, Anda bisa mengintegrasikan
+                            perangkat
+                            IoT dengan asisten suara. Misalnya, menggunakan ESP32 untuk membuat perangkat yang bisa
+                            menerima
+                            perintah suara (melalui integrasi dengan layanan seperti Google Assistant atau Alexa via
+                            IFTTT)
+                            untuk menyalakan lampu atau perangkat elektronik lainnya.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
